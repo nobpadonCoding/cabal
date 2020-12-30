@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Grid from '@material-ui/core/Grid';
+import CharacterName from "./components/CharacterName";
+import CharacterSelect from "./components/CharacterSelect"
+import StatChart from "./components/StatChart"
+import StatDisplay from "./components/StatDisplay"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Grid spacing={3} container direction="row" alignItems="flex-start" style={{padding:10}}>
+      {/* Charrector select */}
+      <Grid item xs={12} md={4} lg={4}>
+        <CharacterSelect></CharacterSelect>
+        <CharacterName></CharacterName>
+      </Grid>
+      {/* End Charrector select */}
+
+      {/* StatChart */}
+      <Grid item xs={8} md={4} lg={4}>
+            <StatChart></StatChart>
+      </Grid>
+      {/* End StatChart */}
+
+      {/* StatDisplay */}
+      <Grid item xs={4} md={4} lg={4}>
+            <StatDisplay></StatDisplay>
+      </Grid>
+      {/* End StatDisplay */}
+    </Grid>
+  )
 }
 
-export default App;
+export default App
