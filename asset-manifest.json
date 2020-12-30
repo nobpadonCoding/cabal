@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cabal/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/cabal/static/js/main.40d7d591.chunk.js",
+    "main.js.map": "/cabal/static/js/main.40d7d591.chunk.js.map",
+    "runtime-main.js": "/cabal/static/js/runtime-main.b84ea962.js",
+    "runtime-main.js.map": "/cabal/static/js/runtime-main.b84ea962.js.map",
+    "static/js/2.00a22c9f.chunk.js": "/cabal/static/js/2.00a22c9f.chunk.js",
+    "static/js/2.00a22c9f.chunk.js.map": "/cabal/static/js/2.00a22c9f.chunk.js.map",
+    "static/js/3.334f741e.chunk.js": "/cabal/static/js/3.334f741e.chunk.js",
+    "static/js/3.334f741e.chunk.js.map": "/cabal/static/js/3.334f741e.chunk.js.map",
+    "index.html": "/cabal/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/cabal/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.00a22c9f.chunk.js.LICENSE.txt": "/cabal/static/js/2.00a22c9f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/cabal/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b84ea962.js",
+    "static/js/2.00a22c9f.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.40d7d591.chunk.js"
+  ]
+}
