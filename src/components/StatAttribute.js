@@ -48,7 +48,7 @@ function StatAttribute(props) {
         step={1}
         marks
         min={1}
-        max={15}
+        max={20}
         value={attributeValue}
         onChange={(event,value)=>{
             setattributeValue(value)
